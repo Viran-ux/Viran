@@ -1,0 +1,389 @@
+*{
+    margin:0%;
+    padding:0%;
+     box-sizing: border-box;
+}
+
+ /* THIS IS HEADING PART  */
+
+.navbar{
+display: flex;
+width: 100%;
+}
+
+.search {
+
+    background-image: url(search.png);
+    background-size: cover;
+    height: 3.5vh;
+    width: 3vh;
+    position: relative;
+    left: 52vh;
+    top: 2vh;
+
+}
+
+span {
+
+    font-size: 3.7vh;
+    position: relative;
+    left: 50vh;
+    top: 2.5vh;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.logo {
+
+    background-image: url(people.png);
+    background-size: cover;
+    height: 2.7vh;
+    width: 2.7vh;
+    position: relative;
+    left: 48vh;
+    top: 2vh;
+
+
+}
+
+.volvologo{
+    background-image: url(VOLVO.logo.svg);
+    width: 7.2vw;
+    height: 0.9vh;
+    background-size: cover;
+    transform: translateX(-115vh);
+    margin-top: 60px;
+
+}
+
+
+
+h3 {
+
+    height: 50px;
+    width: 140px;
+    position: relative;
+    bottom: 8.5vh;
+    left: 161vh;
+    font-size: 30px;
+    font-weight: lighter;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+ul li a {
+
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+    margin-left: -40px;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+}
+
+ul  {
+    display: flex;
+    margin-left: 1080px;
+    transform: translateX(54px);
+}
+ul li {
+
+    margin: 50px;
+    list-style-type: none;
+    
+}
+
+ /* THIS IS PAGE 2 VOLVO SCREEN */
+
+.main {
+
+    background-image:linear-gradient(to right ,rgba(0,0,0,0)50%,rgba(0,0,0,0.5)), url(VOLVO.img.avif); 
+    background-size: cover;
+    height: 75vh;
+
+    
+   
+}
+
+p {
+
+    font-size: 30px;
+    margin-left: 86%;
+    transform: translateY(25vh);
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+h2 {
+
+    font-size: 67px;
+    margin-left: 72%;
+    transform: translateY(29vh);
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    letter-spacing: 4px;
+   
+}
+.txt {
+
+    margin-left: 76%;
+}
+
+button {
+
+    font-size: 40px;
+    margin-left: 88%;
+    transform: translateY(29vh);
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    background-color: white;
+    margin-top: 50px;
+    padding: 30px;
+    border: none;
+}
+
+button:hover {
+
+    background-color: rgb(211, 211, 211);
+    transition: all 1s ease 0s ;
+    
+}
+
+ /* THIS IS INFO */
+
+.box {
+
+    height: 15vh;
+    width: 20vw;
+    background-color: rgba(250,250,250);
+    margin: 70px;
+    margin-top: 6vh;
+}
+.box:hover {
+
+    background-color: rgba(250,250,250);
+}
+
+#v {
+
+   font-size: 45px;
+   letter-spacing: 2px;
+   margin-left: 50px;
+   transform: translateY(2.5vh);
+   font-weight: lighter;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+#l {
+
+    width: 30vh;
+    transform: translateX(-158vh);
+    margin-top: 10vh;
+}
+
+#o {
+
+    font-size: 45px;
+    letter-spacing: 1px;
+    margin-left: 20px;
+     transform: translateY(2.5vh);
+     font-weight: lighter;
+     font-family: Arial, Helvetica, sans-serif;
+     
+}
+
+.chevron1{
+
+     background-image: url(chevron.png);
+    background-size: cover;
+    height: 50px;
+    width: 50px;
+    margin-left: 32vh;
+    margin-top: -8px;
+
+}
+
+.chevron {
+
+
+    background-image: url(chevron.png);
+    background-size: cover;
+    height: 50px;
+    width: 50px;
+    margin-left: 30vh;
+    margin-top: -8px;
+
+
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    padding: 20px;
+    margin: 20px;
+}
+
+      /* VOLVO XC60 AND EC40 INFO    */
+
+.imgxc60 {
+
+    background-image: url(XC60.avif);
+    background-size: cover;
+    height: 45vh;
+    width: 75vh;
+    position: relative;
+    left: 7vh;
+    top: 100px;
+
+}
+
+#xc {
+
+    font-size: 45px;
+   letter-spacing: 2px;
+   margin-left: 10px;
+   transform: translateY(50vh);
+   font-weight: lighter;
+   font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#xct {
+
+    margin-right: 60vh;
+    width: 80vh;
+    margin-top: 20vh;
+   
+}
+
+.performance {
+
+    color: black;
+    margin-left: 7.5vh;
+    height: 100px;
+    width: 1100px;
+    position: relative;
+    bottom: 7vh;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+   
+   
+}
+
+#explorexc60 {
+
+    color: black;
+    position: relative;
+    right: 143vh;
+    bottom: 5vh;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+
+#explorexc60 a {
+
+ text-decoration: none;
+ color: black;
+
+}
+     /* EC40 INFO */
+
+.imgEC40 {
+
+    background-image: url(EC40.avif);
+    background-size: cover;
+    height: 45vh;
+    width: 46vw;
+    position: relative;
+    left: 90vh;
+    bottom: 48.7vh;
+   
+}
+
+#ec {
+
+    font-size: 45px;
+   letter-spacing: 2px;
+   margin-left: 10px;
+   transform: translateY(49vh);
+   font-weight: lighter;
+   font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.textec40 {
+
+    color: black;
+    height: 100px;
+    width: 1100px;
+    position: relative;
+    bottom: 62vh;
+    right: 1010px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+
+
+}
+
+#exploreec40 {
+
+    color: black;
+    position: relative;
+    bottom: 59.6vh;
+    right: 60vh;
+    font-size: 30px;
+    font-weight: bold;
+  
+}
+
+#exploreec40 a {
+
+    text-decoration: none;
+ color: black;
+
+}
+
+.chevron2 {
+
+     background-image: url(chevron.png);
+    background-size: cover;
+    height: 30px;
+    width: 30px;
+    position: relative;
+    right: 136vh;
+    bottom: 115px;    
+    
+}
+
+#chevron3 {
+
+    background-image: url(chevron.png);
+    background-size: cover;
+    height: 30px;
+    width: 30px;
+    position: relative;
+    bottom: 1030px;
+    right: 880px;
+    
+}
+
+.featured {
+
+    font-size: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+    margin-left: 9vh;
+    margin-bottom: 400px;
+}
+
+video {
+
+    margin-left: 50px;
+    height: 2000px;
+    width: 2600px;
+   position: relative;
+   bottom: 500px;
+}
