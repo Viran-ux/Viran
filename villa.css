@@ -1,0 +1,91 @@
+
+*{
+    margin:0%;
+    padding:0%;
+}
+
+
+#image {
+
+    background-image: url(unsplash.jpg);
+    background-size: cover;  
+    height: 900px;  
+    display: flex;
+    justify-content: center;
+    opacity: 0.8;
+    background-image: linear-gradient();
+   
+    
+ }
+ 
+ 
+  .box {
+   
+    color: aliceblue;
+    margin: 30px;
+    position: relative;
+    left: 25%;
+    
+ }
+
+ #box {
+
+
+    color: aliceblue;
+    position: absolute;
+    top: 55%;
+    font-size: 400%;
+ }
+
+
+ #box2 {
+
+
+    color: aliceblue;
+    position: absolute;
+    top: 60%;
+    font-size: 100%;
+    margin: 40px;
+ }
+
+#box3 {
+
+    color: aliceblue;
+    position: absolute;
+    top: 80%;
+    left: 40%;
+    font-size: 100%;
+    font-size: 20px;
+    border:  solid black;
+    padding: 15px;
+    border-radius: 20px;
+    
+    
+}
+
+
+#box4 {
+
+    color: aliceblue;
+    position: absolute;
+    top: 80%;
+    left: 60%;
+    font-size: 100%;
+    font-size: 20px;
+    border:  solid black;
+    padding: 15px;
+    border-radius: 20px;
+    
+    
+}
+
+#box3:hover {
+
+    background-color: rgb(163, 181, 197);
+}
+ 
+#box4:hover {
+
+    background-color: rgb(163, 181, 197);
+}
+ 
