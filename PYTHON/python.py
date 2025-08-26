@@ -597,3 +597,55 @@ print("thanks")
 # while i<=n:
 #   print(' '*(n-i)+'* '*i)
 #   i+=1
+
+
+# n = int(input("Enter an Number :"))
+
+# i = 0
+# while i<n:
+#     print('*'*(n-i))
+#     i+=1
+
+
+# n = int(input("Enter An Number :"))
+
+# i = 0
+# while i<n:
+#     print(' '*i+'*'*(n-i))
+#     i+=1
+
+# n = int(input("Enter an Number :"))
+ 
+# i = 0
+
+# while i<n:
+#     print(' '*i+'* '*(n-i))
+#     i+=1
+
+# n = int(input("Enter an Number :"))
+
+# i = 1
+# while i<=n:
+#     print(' '*(n-i)+'* '*i)
+#     i+=1
+
+# i-=2
+# while i>=1:
+#     print(' '*(n-i)+'* '*i)
+#     i-=1
+
+# n = int(input("Enter an Number :"))
+# if n%2==0:
+
+#     pass
+
+# else:
+#     n = n//2+1
+#     i =1
+#     while i<=n:
+#         print(' '*(n-i)+'* '*i)
+#         i+=1
+#     i-=2
+#     while i>=1:
+#         print(' '* (n-i)+'* '*i)
+#         i-=1

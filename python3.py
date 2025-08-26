@@ -160,15 +160,17 @@
 #     i+=1
 
 
-n = int(input("Enter an Number :"))
+# n = int(input("Enter an Number :"))
 
-i = 1
-sum = 0
-while i<=n:
-    sum+=i*2
-    if (i<=n-1):
-      print(2*i,end='+')
-    else:
-       print(2*i,end='=')
-    i+=1
-print(sum)
+# i = 1
+# sum = 0
+# while i<=n:
+#     sum+=i*2
+#     if (i<=n-1):
+#       print(2*i,end='+')
+#     else:
+#        print(2*i,end='=')
+#     i+=1
+# print(sum)
+
+
