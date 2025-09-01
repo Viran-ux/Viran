@@ -566,8 +566,201 @@ print("thanks")
 # print(sum)
 
 
+'''required n even number'''
+
+# i = 1
+# while i<=5:
+#     print(2*i)
+#     i+=1
+
+# sum = 0
+# i = 1
+# while i<=5:
+#     sum+=i*2
+#     if (i<=5-1):
+#         print(2*i,end='+')
+#     else:
+#         print(2*i,end='=')
+#     i+=1
+# print(sum)
+
+# multi = 1
+# i = 1
+# while(i<=5):
+#     multi = multi*i*2
+#     if (i<=5-1):
+#         print(2*i,end='*')
+#     else:
+#         print(2*i,end='=')
+#     i+=1
+# print(multi)
+
+'''required as user'''
+
+# n = int(input("Enter An Number :"))
+
+# i = 1
+# while i<=n:
+#     if (i<=n):
+#         print(2*i)
+#     i+=1
+
+# n = int(input("Enter an Number :"))
+# sum = 0
+# i = 1
+# while i<=n:
+#     sum+=i*2
+#     if (i<=n-1):
+#         print(2*i,end='+')
+#     else:
+#         print(2*i,end='=')
+#     i+=1
+# print(sum)
+
+# n = int(input("Enter an Number :"))
+
+# i = 1
+# multi = 1
+# while i<=n:
+#     multi*=i*2
+#     if (i<=n-1):
+#         print(2*i,end='*')
+#     else:
+#         print(2*i,end='=')
+#     i+=1
+# print(multi)
+
+'''required n odd number'''
+
+# i = 1
+# while i<=5:
+#     print(2*i-1)
+#     i+=1
+
+# i = 1
+# sum = 0
+# while i<=5:
+#     if (i<=5-1):
+#         sum+=i*2.5
+#         print(2*i-1,end='+')
+#     else:
+#         print(2*i-1,end='=')
+#     i+=1
+# print(sum)
+
+
+# i = 1
+# multi = 1
+# while i<=5:
+#     multi*=i*2-1
+#     if (i<=5-1):
+#         print(2*i-1,end='*')
+#     else:
+#         print(2*i-1,end='=')
+#     i+=1
+# print(multi)
+
+
+'''required as user'''
+
+# n= int(input("Enter an Number :"))
+
+# i = 1
+# while i<=n:
+#     print(2*i-1)
+#     i+=1
+
+# n = int(input("Enter an Number :"))
+
+# i = 1
+# sum = 0
+# while i<=n:
+#     sum+=i*2-1
+#     if (i<=n-1):
+#         print(2*i-1,end='+')
+#     else:
+#         print(2*i-1,end='=')
+#     i+=1
+    
+# print(sum)
+
+# n = int(input("Enter an Number :"))
+
+# multi = 1
+# i = 1
+# while i<=n:
+#     multi*=i*2-1
+#     if (i<=n-1):
+#         print(2*i-1,end='*')
+#     else:
+#         print(2*i-1,end='=')
+#     i+=1
+
+# print(multi)
+
+
+
+
+
+'''ARMSTRONG NUMBER'''
+
+# '''armstrong number'''
+
+# n = int(input("Enter an Number :"))
+
+# digit=sum=0
+# x = y = n
+# while n>0:
+#     n = n//10
+#     digit = digit + 1
+# while x>0:
+#     lastdigit = x%10
+#     sum = sum+lastdigit**digit
+#     x = x//10
+# if sum==y:
+#  print(f'given number {y} is Armstrong')
+# else:
+#    print("NOT ARMSTRONG")
+
+'''OR'''
+
+# n = int(input("Enter An Number :"))
+
+# sum = 0
+# orig = n
+
+# while n>0:
+#     sum = sum + (n%10)*(n%10)*(n%10)
+#     n//=10
+# if (sum==orig):
+#     print(f'the given number {orig} is ARMSTRONG')
+# else:
+#     print(f'the given number {orig} is not ARMSTRONG')
+
+
+'''to count digits'''
+
+# n = int(input("Enter an Number :"))
+# x = n
+# digit = 0
+# while n>0:
+#     n = n//10
+#     digit = digit +1
+# # print("N",n,"Digit:",digit)
+# print(f'total digit of given no {x} is {digit}')
+
+'''OR'''
+
+# n = int(input("Enter an Number :"))
+
+# print(f'total digit of given number {n} is {len(n)}')
+
+
+
+
 '''PATTERN TOTAL 14'''
 
+'1' 'PRINTED AS VALUE OF n times given '
 
 # n = int(input("Enter an Number :"))
 
@@ -576,12 +769,17 @@ print("thanks")
 #     print('*'*n)
 #     i+=1
 
+'2' 'PRINTED AS VALUE OF i in increment order'
+
 # n = int(input("Enter an Number :"))
 # i = 1
 
 # while i<=n:
 #  print('*'*i)
 #  i+=1
+
+
+'3' 'LEFT ANGLED TRIANGLE'
 
 # n = int(input("Enter an Number :"))
 # i = 1
@@ -590,6 +788,7 @@ print("thanks")
 #   print(' '*(n-i)+'*'*i)
 #   i+=1
 
+'4' 'HALF DIAMOND'
 
 # n = int(input("Enter an Number :"))
 # i = 1
@@ -598,6 +797,7 @@ print("thanks")
 #   print(' '*(n-i)+'* '*i)
 #   i+=1
 
+'5' 'LEFT INVERTED'
 
 # n = int(input("Enter an Number :"))
 
@@ -606,6 +806,7 @@ print("thanks")
 #     print('*'*(n-i))
 #     i+=1
 
+'6' 'RIGHT INVERTED'
 
 # n = int(input("Enter An Number :"))
 
@@ -614,6 +815,8 @@ print("thanks")
 #     print(' '*i+'*'*(n-i))
 #     i+=1
 
+'7'  'HALF HOURGLASS'
+
 # n = int(input("Enter an Number :"))
  
 # i = 0
@@ -621,6 +824,8 @@ print("thanks")
 # while i<n:
 #     print(' '*i+'* '*(n-i))
 #     i+=1
+
+'8' 'FUll DIAMOND'
 
 # n = int(input("Enter an Number :"))
 
@@ -633,6 +838,8 @@ print("thanks")
 # while i>=1:
 #     print(' '*(n-i)+'* '*i)
 #     i-=1
+
+'PASS'
 
 # n = int(input("Enter an Number :"))
 # if n%2==0:
@@ -649,3 +856,208 @@ print("thanks")
 #     while i>=1:
 #         print(' '* (n-i)+'* '*i)
 #         i-=1
+
+
+'''FOR LOOP'''
+
+
+# my_string = 'python'
+# my_list = [1,2,3,'python','java']
+# my_tuple = (1,2,3,4,'python','java')
+# my_dict = {'name':'viras','age':'17'}
+# my_set = {1,2,3,'python','java'}
+
+# for i in my_string:
+#     print(i)
+# for i in my_list:
+#     print(i)
+# for i in my_tuple:
+#     print(i)
+# for k,v in my_dict.items():
+#     print(k,'=',v)
+# for i in my_set:
+#     print(i)
+
+
+'''ASCII VALUES FROM DIGITS TO ALPHABETS'''
+
+# s = 'abcde'
+# s1 = ''
+
+# for i in s:
+#    x = chr(ord(i)+5)
+#    s1 = ''.join((s1,x))
+# print(s1)
+
+
+# x = 'a'
+
+# print(ord(x))
+
+# s1 = 'viras'
+# s = 'indi'
+
+# print(' '.join(s1,s))
+
+# s = 'abcde'
+# s1 = ''
+
+# for i in range(-1,-6,-1):
+#     print(i)
+#     x = s[i]
+#     s1 = ''.join([s1,x])
+# print(s1)
+
+'''OR'''
+
+# s = 'abcde'
+# s1 = ''
+
+# for i in range(-1,-(len(s)+1),-1):
+#     print(i)
+#     x = s[i]
+#     s1 = ''.join([s1,x])
+# print(s1)
+
+    
+'''PATTERNS USING FOR LOOP'''
+
+'1' 'PRINTED AS VALUE OF i in increment order'
+
+# n = int(input("Enter an number :"))
+
+# for i in range(1,n+1):
+#     print('*'* i)
+
+'2' 'PRINTED AS VALUE OF n times given '
+
+# n = int(input("Enter an Number :"))
+
+# for i in range(1,n+1):
+#     print('*'*n)
+
+
+'3' 'LEFT ANGLED TRIANGLE'
+
+# n = int(input("Enter an Number :"))
+
+# for i in range(1,n+1):
+#     print(' '*(n-i)+"*"*i)
+
+'OR'
+
+# n = int(input("Enter an number :"))
+
+# for i in range(n-1,-1,-1):
+#     print(' '* i+'*'*(n-i))
+
+
+'4' 'HALF DIAMOND'
+
+
+# n = int(input("Enter an Number :"))
+
+# for i in range(1,n+1):
+#     print(' '*(n-i)+'* '*i)
+
+
+'5' 'FULL DIAMOND'
+
+# n = int(input("Enter an Number :"))
+
+# for i in range(1,n+1):
+#     print(' '*(n-i)+'* '*i)
+
+# for i in range(n-1,-1,-1):
+#     print(' '*(n-i)+'* '*i)
+
+
+
+'6' 'LEFT INVERTED TRIANGLE'
+
+# n = int(input("Enter an Number :"))
+
+# for i in range(0,n+1):
+#     print('*'*(n-i))
+
+'7' 'RIGHT INVERTED TRIANGLE'
+
+# n = int(input("Enter an Number :"))
+
+# for i in range(0,n+1):
+#     print(' '*i+'*'*(n-i))
+
+'8' 'HALF HOURGLASS'
+
+# n = int(input("Enter an Number :"))
+ 
+# for i in range(0,n+1):
+#     print(' '*i+'* '*(n-i))
+
+'9' 'FULL HOURGLASS'
+
+
+
+
+
+
+
+'''WHILE ELSE'''
+
+'''IF WE DONT USE BREAK THE LOOP DOESN'T TERMINATE IT RUN'S INFINITELY'''
+
+# atmpin = '1234'
+# pin = (input("Enter an Number :"))
+
+# while (atmpin == pin):
+#     print('Welcome to atm process')
+#     break 
+# else:
+#     print('please enter correct pin')
+
+
+# n = int(input("Enter an Number :"))
+
+
+
+
+'''CONTINUE'''
+
+# i = 1
+# while i<=n:
+#     if i==5:
+#         # print(i) '''IT MAKES THE LOOP INFINITE IF WE DON'T USE CONTIN'''
+#         continue
+#     else:
+#         print(i)
+#     i=i+1
+
+
+
+
+'''PASS'''
+
+# n = int(input("Enter an Number :"))
+
+# i = 1
+# while i<=n:
+#     if i==5:
+#         pass
+#         print("HELLO")
+
+#     else:
+#         print(i)
+#     i=i+1
+
+
+'''BREAK'''
+
+# n = int(input("Enter an Number :"))
+
+# i = 1
+# while i<=n:
+#     if i==5:
+#        break
+#     else:
+#         print(i)
+#     i=i+1

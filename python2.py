@@ -65,6 +65,15 @@
 # else:
 #     print("NOT PALINDROME")
 
+'''OR'''
+
+# n = (input("Enter an Number :"))
+
+# if n==n[::-1]:
+#     print("PALINDROME")
+# else:
+#     print("NOT PALINDROME")
+
 '''FACTORIAL NUMBER'''
 
 # n=int(input("Enter an Number :"))
@@ -75,3 +84,33 @@
 #     n-=1
 
 # print(f"The factorial is: {fac}")
+
+
+'''ARMSTRONG NUMBER'''
+
+# n = int(input("Enter an Number :"))
+
+# orig=n
+# sum = 0
+# while n>0:
+#     sum = sum+(n%10)*(n%10)*(n%10)
+#     n = n//10
+# if (sum==orig):
+#     print("ARM")
+# else:
+#     print("NOT ARMSTRONG")
+
+
+
+# '''FOR LOOP'''
+
+# for i in (1,2,3,4,5):
+#     print(i)
+# print("HELLO")
+
+
+'''INTERVIEW TYPE QUESTION'''
+
+# for _ in [1,2]:
+   
+#     print(_)
