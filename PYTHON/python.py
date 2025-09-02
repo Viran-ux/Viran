@@ -997,8 +997,14 @@ print("thanks")
 '9' 'FULL HOURGLASS'
 
 
+# n = int(input("Enter an Number :"))
 
 
+# for i in range(0,n):    
+#     print(' ' * i + '* ' * (n - i))
+
+# for i in range(2,n+1):
+#     print(' ' * (n - i) + '* ' * i)
 
 
 
@@ -1061,3 +1067,51 @@ print("thanks")
 #     else:
 #         print(i)
 #     i=i+1
+
+
+
+'''CALCULATOR'''
+
+# while True:
+#     print("1.addition \n 2.substrction \n 3.multiplication \n 4.divisiion \n 5.off")
+
+#     n = int(input("Enter the type of calculation:"))
+
+#     x = (1,2,3,4)
+
+#     if n in x:
+#         p = float(input("Enter an Number 1 :"))
+#         q = float(input("Enter an Number 2 :"))
+
+#         if n==1:
+#          print('addition =',p+q)
+#         elif n==2:
+#          print('substraction =',p-q)
+#         elif n==3:
+#          print('multiplication =',p*q)
+#         else:
+#          print('division',p/q)
+
+#     elif n==5:
+#       break
+#     else:
+#       print("please enter an valid option")
+
+
+
+
+    
+'''SUM BY APPENDING INTO A LIST'''
+ 
+# n1 = int(input("Enter an Number :"))
+
+# l = []
+ 
+# for _ in range(n1):
+#     variable = float(input("Enter an Number :"))
+#     l.append(variable)
+# sum = 0
+
+# for i in l:
+#     sum+=i
+# print(f'sum of {l} = {sum}')
