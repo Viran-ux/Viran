@@ -1101,7 +1101,7 @@ print("thanks")
 
 
     
-'''SUM BY APPENDING INTO A LIST'''
+'''sum of a list of numbers entered by the user'''
  
 # n1 = int(input("Enter an Number :"))
 
@@ -1115,3 +1115,106 @@ print("thanks")
 # for i in l:
 #     sum+=i
 # print(f'sum of {l} = {sum}')
+
+
+'''right-angled triangle of numbers.'''
+
+# n = int(input("Enter an Number :"))
+
+# for i in range(1,n+1):
+#     for j in range(1,i+1):
+#         print(j,end='')
+#     print()
+
+
+'''right-angled triangle of even numbers '''
+
+# n = int(input("Enter an Number :"))
+
+# for i in range(1,n+1):
+#     for j in range(1,i+1):
+#         print(2*j,end='')
+#     print()
+
+'''right-angled triangle of odd numbers.'''
+
+# n = int(input("Enter an Number :"))
+
+# for i in range(1,n+1):
+#     for j in range(1,i+1):
+#         print(2*j-1,end='')
+#     print()
+
+
+
+'''right-angled triangle pattern of sequential numbers.'''
+
+# n = int(input("Enter an Number :"))
+
+# j = 1
+
+# for i in range(1,n+1):
+#     for _ in range(1,i+1):
+#         print(j,end=',')
+#         j+=1
+#     print()
+
+'''right-angled triangle pattern of sequential even numbers.'''
+
+# n = int(input("Enter an Number :"))
+
+# j = 1
+
+# for i in range(1,n+1):
+#     for _ in range(1,i+1):
+#         print(2*j,end=',')
+#         j+=1
+#     print()
+
+'''right-angled triangle pattern of sequential odd numbers.'''
+
+# n = int(input("Enter an Number :"))
+
+# j = 1
+
+# for i in range(1,n+1):
+#     for _ in range(1,i+1):
+#         print(2*j-1,end=',')
+#         j+=1
+#     print()
+
+
+'''rectangle pattern of capital letters'''
+
+# n = int(input("Enter an Number :"))
+
+
+# for i in range(1,n+1):
+#     j = 'A'
+#     for _ in range(1,n+1):
+#         print(j,end=' ')
+#         j = chr(ord(j)+1)
+#     print()
+
+'''pyramid pattern of capital letters'''
+
+# n = int(input("Enter an Number :"))
+
+
+# for i in range(1,n+1):
+#     j = 'A'
+#     for _ in range(1,i+1):
+#         print(j,end=' ')
+#         j = chr(ord(j)+1)
+#     print()
+
+'''pyramid pattern of capital letters sequentially'''
+
+# n = int(input("Enter an Number :"))
+# j = 'A'
+# for i in range(1,n+1):
+    
+#     for _ in range(1,i+1):
+#         print(j,end=' ')
+#         j = chr(ord(j)+1)
+#     print()'''
