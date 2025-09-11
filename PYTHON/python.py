@@ -2,17 +2,23 @@
         # CYBROM TOPICS IN PYTHON
 
 
+
+'tokens '
+
+
 '''
-tokens 
-       keyword
-       String
-       punctuation
-       identifier
-       literals
-       operations
+keyword
+String
+punctuation
+identifier
+literals
+operations
 '''
+
+
+
+'type of operations'
 '''
- type of operations
  object
  index 
  slicing
@@ -49,11 +55,13 @@ tokens
  print(type(x))
 '''
 
-''' EVEN NUMBER
- n = int(input("Enter a number :"))
- x = list(range(2,n+1,2))
- print(x)
- print(type(x))
+'EVEN NUMBER'
+
+'''
+n = int(input("Enter a number :"))
+x = list(range(2,n+1,2))
+print(x)
+print(type(x))
 '''
 
 ''' ODD NUMBER
@@ -63,17 +71,17 @@ tokens
  print(type(x))
 '''
 
-# x = range(-1,-11,-1)
+'''x = range(-1,-11,-1)
 
-# print(list(x))
+print(list(x))'''
 
-# x = range(-1,-11,-2)
+'''x = range(-1,-11,-2)
 
-# print(list(x))
+print(list(x))'''
 
 
-# x = range(1,10,-1)
-# print(tuple(x))
+'''x = range(1,10,-1)
+print(tuple(x))'''
 
 
 '''
@@ -95,17 +103,19 @@ use of end
 '''
 
 
-# x = int()
-# print(x)
-# print(type(x))
+'''
+x = int()
+print(x)
+print(type(x))
 
-# x = float()
-# print(x)
-# print(type(x))
+x = float()
+print(x)
+print(type(x))
 
-# x = complex()
-# print(x)
-# print(type(x))
+x = complex()
+print(x)
+print(type(x))
+'''
 
 '''
 
@@ -143,7 +153,8 @@ print(x)
 '''
 
 '''
-# list methods
+
+'LIST METHODS'
 
 
 l = [2,4,6,'viras','riyadh']
@@ -201,6 +212,8 @@ print(x)
 print(type(x))
 
 '''
+
+'DICTIONARY METHODS'
 
 '''
 d = {"x":10,"y":20,'Z':"30"}
@@ -262,144 +275,206 @@ d1 = d.setdefault("p",100)
 print(d1)
 print(d)
 '''
-# set = {10,20,30,'python'}
 
-# set.add('java')
-# print(set)
+'SET METHODS'
 
-# l1 = [2,4,6,8]
-# l2 = [1,3,5,7]
-# set.update(l1,l2)
-# print(set)
+''
+set = {10,20,30,'python'}
 
-# set = {10,20,30,'python'}
+set.add('java')
+print(set)
+''
 
-# set.remove('python')
-# print(set)
-# set.discard('python')
-
-# fs = frozenset({1,2,'python'})
-# print(fs)
-# print(type(fs))
-
-# s = 'python'
-# fs = frozenset(s)
-# print(fs)
-# print(type(fs))
+''
+set = {10,20,30,'python'}
+l1 = [2,4,6,8]
+l2 = [1,3,5,7]
+set.update(l1,l2)
+print(set)
+''
 
 
-# fs = frozenset({1,2,5}) 
-# eval(input("Enter s Number :"))
-# print(type(fs))
+''
+set = {10,20,30,'python'}
+
+set.remove('python')
+print(set)
+set.discard('python')   # Tries to remove 'python' again (but it's already removed)
+''
+
+'FROZENSET'
 
 
-# fs = frozenset({1,2,3,4,5}) 
-# fs2 = frozenset({4,5,6,7,8})
-# print(fs.union(fs2))
+'''
+fs = frozenset({1,2,'python'})
+print(fs)
+print(type(fs))
+'''
 
-# fs = frozenset({1,2,3,4,5}) 
-# fs2 = frozenset({4,5,6,7,8})
-# print(fs.intersection(fs2))
 
-# fs = frozenset({1,2,3,4,5}) 
-# fs2 = frozenset({4,5,6,7,8})
-# print(fs.difference(fs2))
+'''
+s = 'python'
+fs = frozenset(s)
+print(fs)
+print(type(fs))
+'''
 
-# fs = frozenset({1,2,3,4,5}) 
-# fs2 = frozenset({4,5,6,7,8})
-# print(fs.symmetric_difference(fs2))
+
+'''
+fs = frozenset({1,2,5}) 
+eval(input("Enter s Number :"))
+print(type(fs))
+'''
+
+
+'''
+fs = frozenset({1,2,3,4,5}) 
+fs2 = frozenset({4,5,6,7,8})
+print(fs.union(fs2))
+'''
+
+
+'''
+fs = frozenset({1,2,3,4,5}) 
+fs2 = frozenset({4,5,6,7,8})
+print(fs.intersection(fs2))
+'''
+
+
+'''
+fs = frozenset({1,2,3,4,5}) 
+fs2 = frozenset({4,5,6,7,8})
+print(fs.difference(fs2))
+'''
+
+
+'''
+fs = frozenset({1,2,3,4,5}) 
+fs2 = frozenset({4,5,6,7,8})
+print(fs.symmetric_difference(fs2))
+'''
 
 # ELEMENTS NOT SAME
 
-# fs = frozenset({1,2,3,4,5}) 
-# fs2 = frozenset({4,5,6,7,8})
-# print(fs.isdisjoint(fs2))
+'''
+fs = frozenset({1,2,3,4,5}) 
+fs2 = frozenset({4,5,6,7,8})
+print(fs.isdisjoint(fs2))
+'''
 
-# fs = frozenset({1,2,3,4,5,6,7}) 
-# fs2 = frozenset({1,2,3,4})
-# print(fs2.issubset(fs))
 
-# fs = frozenset({1,2,3,4,5,6,7}) 
-# fs2 = frozenset({1,2,3,4})
-# print(fs2.issuperset(fs))
+'''
+fs = frozenset({1,2,3,4,5,6,7}) 
+fs2 = frozenset({1,2,3,4})
+print(fs2.issubset(fs))
+'''
 
-# fs = frozenset({1,2,3,4,5,6,7}) 
-# fs2 = frozenset({1,2,3,4})
-# print(id(fs))
-# print(id(fs2))
+
+'''
+fs = frozenset({1,2,3,4,5,6,7}) 
+fs2 = frozenset({1,2,3,4})
+print(fs2.issuperset(fs))
+
+
+'''
+'''
+fs = frozenset({1,2,3,4,5,6,7}) 
+fs2 = frozenset({1,2,3,4})
+print(id(fs))
+print(id(fs2))
+'''
 
 
 '''TYPE CASTING'''
 
 
-# x = input("Enter any value")
-# print(x)
-# print(type(x))
-# print(int(x))
-# print(type(int(x)))
+'''
+x = input("Enter any value")
+print(x)
+print(type(x))
+print(int(x))
+print(type(int(x)))
+'''
 
 
-# x = int(input("Enter any value :"))
+'''
+x = int(input("Enter any value :"))
 
-# print(x)
-# print(type(x))
-# print(str(x))
-# print(type(str(x)))
+print(x)
+print(type(x))
+print(str(x))
+print(type(str(x)))
+'''
 
-# x = float(input("Enter an value :"))
-# print(x)
+'''
+x = float(input("Enter an value :"))
+print(x)
 
-# print(str(x))
+print(str(x))
+'''
 
-# l = (1,2,3,4,5)
+'''
+l = (1,2,3,4,5)
 
-# x = list(l)
-# print(x)
+x = list(l)
+print(x)
+'''
 
-# EMPTY SET
+'EMPTY SET'
 
-# x = []
+'''
+x = []
 
-# print(x)
-# print(type(x))
+print(x)
+print(type(x))
+'''
 
-# l = list()
-# print(l)
-# print(type(l))
+'''
+l = list()
+print(l)
+print(type(l))
+'''
 
-# x = []
-# print(x)
-# print(type(x))
-# val = eval(input("Enter an Number :"))
-# x.append(val)
+'''
+x = []
+print(x)
+print(type(x))
+val = eval(input("Enter an Number :"))
+x.append(val)
 
-# print(x[0])
+print(x[0])
 
-# x[0] = 'java'
-# print(x[0])
-# x.remove('java')
-# print(x)
+x[0] = 'java'
+print(x[0])
+x.remove('java')
+print(x)
+'''
 
-# x = []
-# print(x)
-# print(type(x))
-# val = eval(input("Enter an Number :"))
-# x.append(val)
+'''
+x = []
+print(x)
+print(type(x))
+val = eval(input("Enter an Number :"))
+x.append(val)
 
-# print(x[0])
+print(x[0])
 
-# x[0] = 'java'
-# print(x[0])
-# x.remove('java')
-# print(x)
-
-# del x
-# print(x)
+x[0] = 'java'
+print(x[0])
+x.remove('java')
+print(x)
 
 
-# d = {}
-# d['name'] = 'viras'
-# print(d)
+del x
+print(x)
+'''
+
+
+'''
+d = {}
+d['name'] = 'viras'
+print(d)
+'''
 
 '''
 d = {}
@@ -414,18 +489,20 @@ print(d['name'])
 '''
 
 
-# d = {}
-# d['name'] = 'viras'
-# print(d)
+'''
+d = {}
+d['name'] = 'viras'
+print(d)
 
-# d['name'] = 'python'
+d['name'] = 'python'
 
-# print(d)
+print(d)
 
-# print(d['name'])
+print(d['name'])
 
-# d.pop('name')
-# print(d)
+d.pop('name')
+print(d)
+'''
 
 '''
 x = int(input("Enter an Number :"))
@@ -433,9 +510,10 @@ x = int(input("Enter an Number :"))
 if (x%2==0):
     print("Even")
 
-print("THANKS)
+print("THANKS")
 
 '''
+
 '''
 x = int(input("Enter an Number :"))
 if (x%2==0):
@@ -446,26 +524,31 @@ print("thanks")
 '''
 
 
-# f string is a better way to showcase a code
+'f string is a better way to showcase a code'
 
-# x = int(input("Enter an number :"))
+'''
+x = int(input("Enter an number :"))
 
-# if (x>0):
-#     print("POSITIVE NUMBER")
-# elif (x<0):
-#     print("NEGATIVE NUMBER")
-# elif (x==0):
-#     print("EQUAL TO ZERO")
-
-# x = int(input("Enter an number :"))
-
-# if (x>=0):
-#     print(f'given no {x} is positive')
-# else:
-#     print(f'given no {x} is not positive')
+if (x>0):
+    print("POSITIVE NUMBER")
+elif (x<0):
+    print("NEGATIVE NUMBER")
+elif (x==0):
+    print("EQUAL TO ZERO")
+'''
 
 
-#  5 QUESTIONS  
+'''
+x = int(input("Enter an number :"))
+
+if (x>=0):
+    print(f'given no {x} is positive')
+else:
+    print(f'given no {x} is not positive')
+'''
+
+
+' 5 QUESTIONS ' 
 
 '''QUE : TO PRINT GREATEST OF TWO NUMBERS'''
 
@@ -569,26 +652,32 @@ print("thanks")
 '''required n even number'''
 
 # i = 1
+
 # while i<=5:
-#     print(2*i)
+#     if i<5:
+#         print(2*i,end=',')
+#     else:
+#         print(2*i)
 #     i+=1
 
 # sum = 0
 # i = 1
 # while i<=5:
 #     sum+=i*2
-#     if (i<=5-1):
+#     if i<5:
 #         print(2*i,end='+')
 #     else:
 #         print(2*i,end='=')
 #     i+=1
 # print(sum)
 
+
 # multi = 1
 # i = 1
-# while(i<=5):
-#     multi = multi*i*2
-#     if (i<=5-1):
+
+# while i<=5:
+#     multi*=i*2
+#     if i<5:
 #         print(2*i,end='*')
 #     else:
 #         print(2*i,end='=')
@@ -597,33 +686,37 @@ print("thanks")
 
 '''required as user'''
 
-# n = int(input("Enter An Number :"))
+# n = int(input("Enter Number :"))
 
 # i = 1
 # while i<=n:
-#     if (i<=n):
+#     if i<n:
+#         print(2*i,end=',')
+#     else:
 #         print(2*i)
 #     i+=1
 
-# n = int(input("Enter an Number :"))
-# sum = 0
+# n = int(input("Enter Number :"))
+
 # i = 1
+# sum = 0
 # while i<=n:
 #     sum+=i*2
-#     if (i<=n-1):
+#     if i<n:
 #         print(2*i,end='+')
 #     else:
 #         print(2*i,end='=')
 #     i+=1
 # print(sum)
 
-# n = int(input("Enter an Number :"))
+
+# n = int(input("Enter Number :"))
 
 # i = 1
 # multi = 1
 # while i<=n:
 #     multi*=i*2
-#     if (i<=n-1):
+#     if i<n:
 #         print(2*i,end='*')
 #     else:
 #         print(2*i,end='=')
@@ -634,7 +727,10 @@ print("thanks")
 
 # i = 1
 # while i<=5:
-#     print(2*i-1)
+#     if i<5:
+#       print(2*i-1,end=',')
+#     else:
+#       print(2*i-1) 
 #     i+=1
 
 # i = 1
@@ -745,13 +841,13 @@ print("thanks")
 # digit = 0
 # while n>0:
 #     n = n//10
-#     digit = digit +1
+#     digit = digit + 1
 # # print("N",n,"Digit:",digit)
 # print(f'total digit of given no {x} is {digit}')
 
 '''OR'''
 
-# n = int(input("Enter an Number :"))
+# n = (input("Enter an Number :"))
 
 # print(f'total digit of given number {n} is {len(n)}')
 
@@ -788,22 +884,22 @@ print("thanks")
 #   print(' '*(n-i)+'*'*i)
 #   i+=1
 
-'4' 'HALF DIAMOND'
-
-# n = int(input("Enter an Number :"))
-# i = 1
-
-# while i<=n:
-#   print(' '*(n-i)+'* '*i)
-#   i+=1
-
-'5' 'LEFT INVERTED'
+'4' 'LEFT INVERTED'
 
 # n = int(input("Enter an Number :"))
 
 # i = 0
 # while i<n:
 #     print('*'*(n-i))
+#     i+=1
+
+'5' 'RIGHT ANGLED TRIANGLE'
+
+# n = int(input("Enter an Number :"))
+
+# i = 1
+# while i<=n:
+#     print('*'*i+" "*(n-i))
 #     i+=1
 
 '6' 'RIGHT INVERTED'
@@ -815,15 +911,14 @@ print("thanks")
 #     print(' '*i+'*'*(n-i))
 #     i+=1
 
-'7'  'HALF HOURGLASS'
+'7' 'HALF DIAMOND'
 
 # n = int(input("Enter an Number :"))
- 
-# i = 0
+# i = 1
 
-# while i<n:
-#     print(' '*i+'* '*(n-i))
-#     i+=1
+# while i<=n:
+#   print(' '*(n-i)+'* '*i)
+#   i+=1
 
 '8' 'FUll DIAMOND'
 
@@ -838,6 +933,32 @@ print("thanks")
 # while i>=1:
 #     print(' '*(n-i)+'* '*i)
 #     i-=1
+
+
+
+'9'  'HALF HOURGLASS'
+
+# n = int(input("Enter an Number :"))
+ 
+# i = 0
+
+# while i<n:
+#     print(' '*i+'* '*(n-i))
+#     i+=1
+
+'10'  'FULL HOURGLASS'
+
+# n = int(input("Enter an Number :"))
+
+# i = 0
+# while i<n:
+#     print(' '*i+'* '*(n-i))
+#     i+=1
+# i-=2
+# while i>=0:
+#     print(' '*i+'* '*(n-i))
+#     i-=1
+
 
 'PASS'
 
@@ -897,7 +1018,7 @@ print("thanks")
 # s1 = 'viras'
 # s = 'indi'
 
-# print(' '.join(s1,s))
+# print(' '.join([s1,s]))
 
 # s = 'abcde'
 # s1 = ''
@@ -1218,3 +1339,368 @@ print("thanks")
 #         print(j,end=' ')
 #         j = chr(ord(j)+1)
 #     print()'''
+
+
+'''FUNCTION'''
+
+
+# def add(x,y):
+#    z = x+y
+#    return z
+# p = int(input("Enter an Number :"))
+# q = int(input("Enter an Number :"))
+
+# result = add(p,q)
+# print(result)
+# print(result)
+# print(result)
+
+'''PASS USED IN FUNCTION'''
+
+# def add():
+#     pass
+# add()
+# print(add())
+
+
+  
+
+
+'''POSITIONAL ARGUMENT'''
+
+# def add(x,y):
+#     print(x)
+#     print(y)
+# z = add(10,20)
+
+
+# def name(x,y,z):
+#     print(x)
+#     print(y)
+#     print(z)
+# p = int(input("Enter 1st value :"))
+# q = int(input("Enter 2nd value :"))
+# r = int(input("Enter 3rd value :"))
+
+# name(p,q,r)
+
+# def name(name,age,qualification):
+#     print(name)
+#     print(age)
+#     print(qualification)
+# p = (input("Enter 1st value :"))
+# q = int(input("Enter 2nd value :"))
+# r = (input("Enter 3rd value :"))
+
+# name(p,q,r)
+
+
+'''DEFAULT ARGUMENT'''
+
+
+# def name(name = "Guest",age = None,qualification = None):
+#     print(name)
+#     print(age)
+#     print(qualification)
+# p = (input("Enter 1st value :"))
+# q = int(input("Enter 2nd value :"))
+# r = (input("Enter 3rd value :"))
+
+# name()
+
+'''VARIABLE LENGTH ARGUMENT OR VARIABLE LENGTH POSITIONAL ARGUMENT''' 'IMPORTANT'
+
+# def add(*n):
+#     print(n)
+#     print(type(n))
+
+# add()
+# add(2)
+# add(2,3,4,5,6,7,8,9,10)
+
+
+
+# def add(*n):
+#     sum = 0
+#     for i in n:
+#         sum+=i
+#     print(sum)
+# add()
+# add(1)
+# add(1,2,3,4,5,6,7,8,9,10)
+
+
+
+
+# def add(*n):
+#     print(n)
+#     print(type(n))
+
+# add()
+# add(2)
+# add(2,3,4,5,6,7,8,9,10)
+
+
+
+# def add(*n):
+#     print(n)
+#     print(type(n))
+# n = int(input("Enter how many values you want to add :"))
+
+# l = []
+
+# for i in range(n):
+#     value = float(input("Enter an Number :"))
+#     l.append(value)
+
+# add(l)
+
+
+
+# x = 10
+# print(type(x))
+
+
+
+
+# def add(*n):
+#     sum = 0
+#     for i in n:
+#         for j in i:
+#             sum = sum+j
+#     print(sum)
+
+# n = int(input("Enter how many values you want to add :"))
+
+# l = []
+
+# for _ in range(n):
+#     value = float(input("Enter an Number :"))
+#     l.append(value)
+# add(l)
+
+'NESTED FORM'
+
+# def add(*n):
+#     sum = 0
+#     for i in n:
+#      sum+=i
+#     print(sum)
+
+# n = int(input("Enter how many values you want to add :"))
+
+# l = []
+
+# for _ in range(n):
+#     value = float(input("Enter an Number :"))
+#     l.append(value)
+# add(*l)
+
+
+'''KEYWORD  POSITIONAL ARGUMENT'''
+
+# def add(x,y):
+#     print(x+y)
+
+# p = int(input("Enter Number :"))
+# q = int(input("Enter Number :"))
+
+# add(x=p,y=q)
+# add(y=p,x=q)
+
+
+
+'''DEFAULT KEYWORD ARGUMENT'''
+
+# def add(x=0,y=0):
+#     print(x+y)
+
+# p = int(input("Enter Number :"))
+# q = int(input("Enter Number :"))
+
+# add()
+# add(x=p)
+# add(y=q)
+# add(y=p,x=q)
+
+'''VARIABLE LENGTH KEYWORD ARGUMENT''' 'IMPORTANT'
+
+# def name(**kwargs):
+#     print(kwargs)
+#     print(type(kwargs))
+# name()
+# name(x=10)
+# name(x=10,y=20,z=30,p=40,q=50)
+
+
+
+# def name(**n):
+#     for k,v in n.items():
+#         print(k,'=',v)
+
+# name(x=10,y=20,z=30,p=40,q=50)
+
+
+
+# def name(**n):
+#     print(n)
+#     print(type(n))
+
+# d = {'x' : 10,'y' : 20,'z' : 30}
+
+# name(x=d)
+# name(**d)
+
+# def name(**n):
+#     for k,v in n.items():
+#         for j,l in v.items():
+#             print(j,'=',l)
+# d = {'x':10,'y':20,'z':30}
+# name(x=d)
+
+
+
+# def leapyear(year):
+#     if year%4==0 and year%100!=0 or year%400==0:
+#      print(f'Year {year} is leap_year')
+#     else:
+#        print(f'Year {year} is not a leap_year')
+    
+
+'FIBONACCI SERIES'
+
+# n = int(input("Enter Number :"))
+# a,b = 0,1
+
+# for _ in range(n):
+#     print(a,end=' ')
+#     a,b=b,a+b
+
+'OR THROUGH FUNCTION'
+
+# def fib(n):
+#  a,b = 0,1
+
+#  for _ in range(n):
+#     print(a,end=' ')
+#     a,b=b,a+b
+
+# fib()
+
+'OR'
+
+# def fibo():
+#     n = int(input("Enter Number :"))
+
+#     a,b = 0,1
+
+#     for _ in range(n):
+#         print(a,end=',')
+#         temp = a
+#         a = b
+#         b = temp + b
+
+# fibo()
+
+'''TO FIND LENGTH'''
+
+# s = [1,2,3,'viras',17]
+
+# len = 0
+
+# for _ in s:
+#     len = len+1
+# print(f'The length of given {s} is {len}')
+
+
+'OR THROUGH FUNCTION'
+
+
+# def length():
+
+#    s = [1,2,3,'viras',17]
+
+#    len = 0
+#    for _ in s:
+#     len = len+1
+#    print(f'The length of given {s} is {len}')
+# length()
+
+
+
+
+'''TO FIND MAXIMUM'''
+
+# l = [10,30,20,40,60]
+
+# max = l[0]
+
+# for i in l:
+#     if max<i:
+#         max = i
+# print(f'maximum value of given {l} is {max}')
+
+'OR THROUGH FUNCTION'
+
+# def length():
+    
+#    l = (20,40,60,10)
+#    max = l[0]
+
+#    for i in l:
+#       if max < i:
+#          max = i
+#    print(f'the Maximum of Given {l} is {max}')
+
+# length()
+
+
+'''TO FIND MINIMUM'''
+
+# l = [10,30,20,40,60]
+
+# min = l[0]
+
+# for i in l:
+#     if min>i:
+#         min = i
+# print(f'maximum value of given {l} is {min}')
+
+'OR THROUGH FUNCTION'
+
+# def length():
+    
+#    l = (20,40,60,10)
+#    min = l[0]
+
+#    for i in l:
+#       if min > i:
+#          min = i
+#    print(f'the Minimum of Given {l} is {min}')
+
+# length()
+
+
+'''TO FIND SUM'''
+
+# l = [10,30,20,40,60]
+
+# sum = 0
+# for i in l:
+#     sum+=i
+# print(f'sum is {sum}')
+
+'OR THROUGH FUNCTION'
+
+# def length():
+    
+#    l = (20,40,60,10)
+#    sum = 0
+
+#    for i in l:
+#       sum+=i
+#    print(f'the sum of Given {l} is {sum}')
+
+# length()
+
+
