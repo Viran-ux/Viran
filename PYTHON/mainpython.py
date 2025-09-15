@@ -1363,7 +1363,13 @@ else:
 # print(add())
 
 
-  
+'''TYPES OF ARGUMENTS'''
+'POSITIONAL ARGUMENT'
+'DEFAULT ARGUMENT'
+'VARIABLE LENGTH POSITIONAL ARGUMENT''IMPORTANT'
+'KEYWORD POSITIONAL ARGUMENT'
+'DEFAULT KEYWORD ARGUMENT'
+'VARIABLE LENGTH KEYWORD ARGUMENT''IMPORTANT'
 
 
 '''POSITIONAL ARGUMENT'''
@@ -1383,6 +1389,8 @@ else:
 # r = int(input("Enter 3rd value :"))
 
 # name(p,q,r)
+
+
 
 # def name(name,age,qualification):
 #     print(name)
@@ -1442,7 +1450,7 @@ else:
 
 
 
-# def add(*n):
+# def add(n):
 #     print(n)
 #     print(type(n))
 # n = int(input("Enter how many values you want to add :"))
@@ -1481,7 +1489,7 @@ else:
 
 'NESTED FORM'
 
-# def add(*n):
+# def add(n):
 #     sum = 0
 #     for i in n:
 #      sum+=i
@@ -1494,7 +1502,7 @@ else:
 # for _ in range(n):
 #     value = float(input("Enter an Number :"))
 #     l.append(value)
-# add(*l)
+# add(l)
 
 
 '''KEYWORD  POSITIONAL ARGUMENT'''
@@ -1702,5 +1710,4 @@ else:
 #    print(f'the sum of Given {l} is {sum}')
 
 # length()
-
 
