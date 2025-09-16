@@ -137,6 +137,7 @@
 
 'MAP,FILTER,REDUCE COMBINED' 
 
+
 # from functools import reduce
 
 # l = [1,2,3,4,5,6]
@@ -149,3 +150,41 @@
 
 # print(result) # 56  (2² + 4² + 6² = 4 + 16 + 36)
 
+
+
+'DECORATOR''=''a decorator is a special function that lets you modify the behavior of another function (or class) without changing its code.'
+
+
+
+# def outer_fun(func):  # accepts a function, not "name"
+#     def inner_fun(p, q):
+#         p = p + 10
+#         q = q + 20
+#         res = func(p, q)  # call the passed-in function
+#         return res
+#     return inner_fun   # return the wrapper
+
+# def add(x, y):
+#     return x + y
+
+# a = outer_fun(add)   # wrap add with outer_fun
+# b = a(5, 10)         # call the new function
+# print(b)
+
+
+'@ Decorator used in below'
+
+# def outer(func):  # outer acts as a decorator
+#     def inner(p, q):
+#         p = p + 10
+#         q = q + 20
+#         res = func(p, q)  # use the original function
+#         return res
+#     return inner  # return the wrapped function, not call it
+
+# @outer
+# def add(x, y):
+#     return x + y
+
+# r = add(5, 10)
+# print(r)
